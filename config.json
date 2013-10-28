@@ -1,0 +1,15 @@
+{
+    "Users": [
+      {"id": 3029408, "name": "Pinky"},
+      {"id": 693604, "name": "IdrA"}
+    ],
+    "Mailer": {
+      "smtpServer": "smtp.gmail.com:587",
+      "authUsername": "user@gmail.com",
+      "authPassword": "password",
+      "authHost": "smtp.gmail.com",
+      "addressFrom": "user@gmail.com",
+      "addressTo": "user@gmail.com"
+    }
+}
+
