@@ -52,7 +52,7 @@ func (m Match) lastPlayed() time.Time {
 func main() {
 	loadConfig()
 
-	finished := make(chan bool)
+	finished := make(chan bool, len(config.Users))
 
 	// poll for each configured user
 	for _, user := range config.Users {
